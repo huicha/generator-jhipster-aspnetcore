@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using DAL;
+using <%=packageName%>.ViewModels;
+using AutoMapper;
+using DAL.Models;
+using Microsoft.Extensions.Logging;
+using <%=packageName%>.Helpers;
+using Microsoft.Extensions.Options;
+
+namespace <%=packageName%>.Controllers
+{
+    /**
+    * <%= controllerClass %> controller
+    */
+    [Route("api/[controller]")]
+    public class <%= controllerClass %> : Controller
+    {
+
+        private IUnitOfWork _unitOfWork;
+        readonly ILogger _logger;
+
+        public CustomerController(IUnitOfWork unitOfWork, ILogger<CustomerController> logger)
+        {
+            _unitOfWork = unitOfWork;
+            _logger = logger;
+        }
+
+        <%_ for(let idx in controllerActions) { _%>
+            /**
+            * <%= controllerActions[idx].actionMethod.toUpperCase() %> <%= controllerActions[idx].actionName %>
+            */
+            [Http<%= controllerActions[idx].actionMethod %>("/<%= (controllerActions[idx].actionPath) %>")]
+            public <% if (reactiveController) { %>Mono<String><% } else { %>String<% } %> <%= controllerActions[idx].actionName %>() {
+            <%_ if (reactiveController) { _%>
+                return Mono.just("<%= controllerActions[idx].actionName %>");
+            <%_ } else { _%>
+                return "<%= controllerActions[idx].actionName %>";
+            <%_ } _%>
+            }
+        <%_ } _%>
+
+    }
+}

@@ -1,0 +1,8 @@
+Description:
+    Creates a new simple spring REST MVC controller.
+
+Example:
+    jhipster spring-controller Foo
+
+    This will create:
+        Controllers/FooResource.cs with API on "api/foo"

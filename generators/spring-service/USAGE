@@ -1,0 +1,7 @@
+Description:
+    Creates a new JHipster service: this is a simple transactional service written on .Net Core.
+
+ Example:
+    jhipster spring-service Foo
+     This will create:
+        src/main/dotnet/Services/FooService.cs

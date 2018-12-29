@@ -2,17 +2,14 @@
 // More Templates: https://www.ebenmonney.com/templates
 // Email: support@ebenmonney.com
 // ====================================================
-
 using System;
 using System.Linq;
 
-namespace AmhysAPI.ViewModels
+namespace <%=packageName%>.ViewModels
 {
-    public class PermissionViewModel
+    public class ClaimViewModel
     {
-        public string Name { get; set; }
+        public string Type { get; set; }
         public string Value { get; set; }
-        public string GroupName { get; set; }
-        public string Description { get; set; }
     }
 }
