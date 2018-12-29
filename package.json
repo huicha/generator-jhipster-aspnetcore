@@ -1,5 +1,5 @@
 {
-  "name": "generator-jhipster-generator-jhipster-dotnet",
+  "name": "generator-jhipster-dotnet",
   "version": "0.0.0",
   "description": "",
   "keywords": [
@@ -7,7 +7,7 @@
     "jhipster-blueprint",
     "jhipster-5"
   ],
-  "homepage": "https://github.com/huicah/generator-jhipster-generator-jhipster-dotnet",
+  "homepage": "https://github.com/huicha/generator-jhipster-dotnet",
   "author": {
     "name": "Cristian Huichaqueo",
     "email": "cristianhuichaqueo@gmail.com",
@@ -19,7 +19,7 @@
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huicah/generator-jhipster-generator-jhipster-dotnet.git"
+    "url": "git+https://github.com/huicha/generator-jhipster-dotnet.git"
   },
   "dependencies": {
     "chalk": "2.4.1",
@@ -71,6 +71,6 @@
     "release:major": "npm version major -a -m \"Update to %s\" && npm run release"
   },
   "bugs": {
-    "url": "https://github.com/huicah/generator-jhipster-generator-jhipster-dotnet/issues"
+    "url": "https://github.com/huicha/generator-jhipster-dotnet/issues"
   }
 }

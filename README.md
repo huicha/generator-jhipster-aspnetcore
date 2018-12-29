@@ -1,4 +1,4 @@
-# generator-jhipster-generator-jhipster-dotnet
+# generator-jhipster-dotnet
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > JHipster blueprint, 
 
@@ -19,13 +19,13 @@ As this is a [JHipster](https://www.jhipster.tech/) blueprint, we expect you hav
 To install this blueprint:
 
 ```bash
-npm install -g generator-jhipster-generator-jhipster-dotnet
+npm install -g generator-jhipster-dotnet
 ```
 
 To update this blueprint:
 
 ```bash
-npm update -g generator-jhipster-generator-jhipster-dotnet
+npm update -g generator-jhipster-dotnet
 ```
 
 ## With Yarn
@@ -33,13 +33,13 @@ npm update -g generator-jhipster-generator-jhipster-dotnet
 To install this blueprint:
 
 ```bash
-yarn global add generator-jhipster-generator-jhipster-dotnet
+yarn global add generator-jhipster-dotnet
 ```
 
 To update this blueprint:
 
 ```bash
-yarn global upgrade generator-jhipster-generator-jhipster-dotnet
+yarn global upgrade generator-jhipster-dotnet
 ```
 
 # Usage
@@ -81,7 +81,7 @@ npm link generator-jhipster
 ```bash
 mkdir my-app && cd my-app
 
-npm link generator-jhipster-generator-jhipster-dotnet
+npm link generator-jhipster-dotnet
 npm link generator-jhipster (Optional: Needed only if you are using a non-released JHipster version)
 
 jhipster -d --blueprint generator-jhipster-dotnet
@@ -92,9 +92,9 @@ jhipster -d --blueprint generator-jhipster-dotnet
 
 
 
-[npm-image]: https://img.shields.io/npm/v/generator-jhipster-generator-jhipster-dotnet.svg
-[npm-url]: https://npmjs.org/package/generator-jhipster-generator-jhipster-dotnet
-[travis-image]: https://travis-ci.org/huicah/generator-jhipster-generator-jhipster-dotnet.svg?branch=master
-[travis-url]: https://travis-ci.org/huicah/generator-jhipster-generator-jhipster-dotnet
-[daviddm-image]: https://david-dm.org/huicah/generator-jhipster-generator-jhipster-dotnet.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/huicah/generator-jhipster-generator-jhipster-dotnet
+[npm-image]: https://img.shields.io/npm/v/generator-jhipster-dotnet.svg
+[npm-url]: https://npmjs.org/package/generator-jhipster-dotnet
+[travis-image]: https://travis-ci.org/huicah/generator-jhipster-dotnet.svg?branch=master
+[travis-url]: https://travis-ci.org/huicah/generator-jhipster-dotnet
+[daviddm-image]: https://david-dm.org/huicah/generator-jhipster-dotnet.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/huicah/generator-jhipster-dotnet

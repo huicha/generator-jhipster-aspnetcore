@@ -1,5 +1,5 @@
 {
-    "generator-jhipster-generator-jhipster-dotnet": {
+    "generator-jhipster-dotnet": {
         "promptValues": {
             "packageName": "com.mycompany.myapp"
         },
@@ -43,6 +43,6 @@
             "en",
             "fr"
         ],
-        "blueprint": "generator-jhipster-generator-jhipster-dotnet"
+        "blueprint": "generator-jhipster-dotnet"
     }
 }
