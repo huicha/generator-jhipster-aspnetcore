@@ -1,6 +1,6 @@
 # generator-jhipster-dotnet
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> JHipster blueprint, 
+> JHipster blueprint for Dotnet is currently in development.
 
 # Introduction
 
@@ -98,3 +98,4 @@ jhipster -d --blueprint generator-jhipster-dotnet
 [travis-url]: https://travis-ci.org/huicah/generator-jhipster-dotnet
 [daviddm-image]: https://david-dm.org/huicah/generator-jhipster-dotnet.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/huicah/generator-jhipster-dotnet
+# generator-jhipster-dotnet
